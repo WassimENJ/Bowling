@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta  charset="utf-8">
+    <title>Projet Bowling 2022</title>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/other/ThreeBSP.js"></script>
+    <script type="text/javascript" src="../../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../../libs/util/util.js"></script>
+    <script type="text/javascript" src="../../libs/other/physijs/ammo.js"></script>
+    <script type="text/javascript" src="../js/CameraLumiere.js"></script>
+    <script type="text/javascript" src="../js/init.js"></script>
+    <script type="text/javascript" src="../js/OrbitControls.js"></script>
+    <link rel="stylesheet" href="../css/init.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"></div>
+    <form id="controle" action="mailto:toto@wanadoo.fr" method="post">
+      <fieldset>
+        <legend>Tableau des scores</legend>
+        <div>
+          <table id="Tableau">
+          <tr>
+            <th>Score</th>
+            <th>1</th>
+            <th>2</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td> Equipe 1</td>
+            <td><input type="text" id="Equipe1"  name="Manche1" value="0"  /></td>
+            <td><input type="text" id="Equipe1"  name="Manche2" value="0"  /></td>
+            <td><input type="text" id="Equipe1"  name="Total"   value="0"  /></td>
+          </tr>
+          <tr>
+            <td>Equipe 2</td>
+            <td><input type="text" id="Equipe2"  name="Manche1" value="0"  /></td>
+            <td><input type="text" id="Equipe2"  name="Manche2" value="0"  /></td>
+            <td><input type="text" id="Equipe2"  name="Total"   value="0"  /></td>
+          </tr>
+          </table>          
+        </div>
+      </fieldset>
+    </form>
+    <p id="result"></p>
+</body>
+
+</html>

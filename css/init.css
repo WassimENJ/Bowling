@@ -1,0 +1,55 @@
+.expo{
+ vertical-align:super;
+}
+
+body {
+ background-color:#AAAAAA;
+/*margin: 0.5;
+    overflow: hidden;*/
+}
+
+#webgl{
+ border:solid 2px red;
+ /*margin-left: 0.5cm;
+ width:95%;
+ height:95%;*/
+ background-color:white;
+}
+
+#Tableau{
+ text-align:center;
+ border : solid red 2px;
+ background-color:green;
+ border-collapse:collapse;
+}
+
+#Tableau td, #Tableau th{
+ /*text-align:center;*/
+ border : solid red 2px;
+ /*background-color:green;
+ border-collapse:collapse;*/
+}
+
+#Equipe1 td{
+    color: blue;
+}
+
+input[type='text']{
+ width:5cm;
+ background-color:yellow;
+ color:blue;
+}
+
+#divBouton{
+ float:right;
+}
+#controleRepere{
+ float:left;
+ margin-right:1cm;
+ border : solid 3px #FFFF00;
+}
+fieldset{
+ color : rgb(0, 0, 0);
+ background-color:rgb(95, 90, 90);
+ font-weight:900;
+}
